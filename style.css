@@ -31,11 +31,11 @@ header img {
   height: 50px;
   padding-left: 10px;
 }
-body {
+main {
   width: 90%;
   margin: auto auto;
 }
-.first-page {
+#first-page {
   padding-top: 69px;
   background-image: url("./resources/img-mission-background.jpg");
   background-repeat: no-repeat;
@@ -55,9 +55,9 @@ body {
   align-content: center;
   justify-content: center;
 }
-.tea-of-the-month {
-  margin: auto auto;
-  width: 90%;
+#tea-of-the-month {
+  margin: 75px auto;
+  width: 1000px;
 }
 .tea-container {
   display: flex;
@@ -75,22 +75,43 @@ body {
 img {
   max-width: 100%;
 }
-.location-container {
+#location-container {
   background-image: url("./resources/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 500px;
+  height: 500px;
   width: auto;
-}
-.location-container h2 {
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 100px;
 }
 .location-rects-container {
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 .location-rects {
   background-color: black;
-  max-width: 300px;
+  width: 300px;
+  height: auto;
   flex-direction: column;
+  align-content: space-evenly;
+}
+.contact-container {
+  max-height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.contact-container h5 {
+  margin: 15px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+footer {
+  display: inline;
 }
