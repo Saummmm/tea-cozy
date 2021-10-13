@@ -62,12 +62,35 @@ body {
 .tea-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .rectangle {
   max-height: 200px;
   max-width: 300px;
+  margin: 30px 5px;
+}
+.rectangle h4 {
+  margin-top: 10px;
 }
 img {
   max-width: 100%;
+}
+.location-container {
+  background-image: url("./resources/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 500px;
+  width: auto;
+}
+.location-container h2 {
+  padding-top: 50px;
+}
+.location-rects-container {
+  align-items: center;
+}
+.location-rects {
+  background-color: black;
+  max-width: 300px;
+  flex-direction: column;
 }
